@@ -1,4 +1,4 @@
-````markdown
+
 ---
 
 ## テーブル：`logs`
@@ -29,7 +29,7 @@ FROM logs
 WHERE level = 'INFO' AND message LIKE '%user%'
 ORDER BY created_at DESC
 LIMIT 1;
-````
+```
 
 ---
 
@@ -46,8 +46,5 @@ RIGHT(string, n)
 ```
 
 ---
-
-```
-```
 
 
